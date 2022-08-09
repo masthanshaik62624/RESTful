@@ -6,7 +6,7 @@ A Waitgroup is also initialized in this. As multiple goroutines are added to a g
 Running the following in the parent directory will create a module.
 go mod init example/web-service-gin
 Make sure gin package exists:
-go get -u github.com/gin-gonic/gin 
+`go get -u github.com/gin-gonic/gin`
 
 To run the goroutines, execute go run webservice_exhibit.go from the parent directory of the go file on a command line.
 go run webservice_exhibit.go
