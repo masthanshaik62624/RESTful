@@ -20,5 +20,7 @@ The following example curl command can be run directly from the parent directory
 
 Otherwise, saving the command as a .bat file on Windows (and launching it from Command Prompt) does the trick as well.
 
+Postman can be used as well for GET and POST!
+
 A successful GET and POST will be indicated by HTTP 200 OK status. Anything otherwise will result in a 500 Internal Server Error.
 The curl command can be altered to include more data or different data, but the syntax must match or else a 500 error will result. 
