@@ -1,4 +1,4 @@
-# RestfulAPI
+#   Golang Webservice
 
 This is a sample webservice that I made with Golang. It has nested structs as well.
 A Waitgroup is also initialized in this. As multiple goroutines are added to a go module, a waitgroup becomes useful as it can block specific code so that a set of goroutines may complete execution.
