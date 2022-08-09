@@ -3,13 +3,13 @@
 This is a sample webservice that I made with Golang. It has nested structs as well.
 A Waitgroup is also initialized in this. As multiple goroutines are added to a go module, a waitgroup becomes useful as it can block specific code so that a set of goroutines may complete execution.
 
-Running the following in the parent directory will create a module.\n
+Running the following in the parent directory will create a module.<br />
 `go mod init example/web-service-gin`
-Make sure gin package exists:\n
+Make sure gin package exists: <br />
 `go get -u github.com/gin-gonic/gin`
 
 To run the goroutines, execute go run webservice_exhibit.go from the parent directory of the go file on a command line.
-\n
+<br />
 `go run webservice_exhibit.go`
 
 To post:
